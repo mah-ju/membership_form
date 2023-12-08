@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue&family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Membership Application Form
+        </h1>
+    </header>
+<section class="form">
+
+    <form> 
+
+<fieldset>
+    <legend>Personal informations 👤 </legend>
+
+    <label for="fname">First name: </label>
+    <input type="text" id="fname" name="fname">
+
+    
+    <label for="lname">Last name: </label>
+    <input type="text" id="lname" name="lname">
+
+    <label for="email">Email: </label>
+    <input type="email" id="email" name="email">
+
+    <label>Gender:</label>
+
+    <input type="radio"  id="female" name="gender" value="female"  checked>
+    <label for="female">Female</label>
+
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+
+    <input type="radio" id="other"name="gender" value="other">
+    <label for="other">Other</label>
+
+</fieldset>
+
+<fieldset>
+
+    <legend>Adress 🏠 </legend>
+
+<label for="street">Street Address:</label>
+<input type="text" id="street" name="street">
+
+<label for="city">City:</label>
+<input type="text" id="city" name="city">
+
+<label for="zip-code">Postal / Zip code:</label>
+<input type="text" id="zip-code" name="zip-code">
+
+<label for="country">Country:</label>
+<input type="text" id="country" name="country">
+
+</fieldset>
+
+<fieldset>
+
+
+    <legend>We offers the bests plans for you 💡</legend>
+    <label for="plans">Choose</label>
+    
+    <select id="plans">
+        <option value="">**** your best plan****</option>
+        <option value="1month">Plan one month - $45</option>
+        <option value="5months">Plan five months - $145</option>
+        <option value="1year">Plan one year - $210</option>
+    </select>
+</fieldset>
+
+<fieldset>
+
+    <legend>What's your style?</legend>
+
+    <div>
+    
+        <input type="checkbox" id="2hours" name="2hours">
+        <label for="2hours">Free|2 hours/day</label>
+       
+        <input type="checkbox" for="3hours" name="3hours">
+        <label for="3hours">Good|3 hours/day</label>
+      
+    
+    <input type="checkbox" id="5hours" name="5hours">
+    <label for="5hours">Master|5 hours/day</label>
+ 
+   
+
+
+</div>
+</fieldset>
+
+<button>Submit</button>
+</form>
+
+</section>
+    
+</body>
+</html>
